@@ -1,0 +1,11 @@
+#canvas-default{
+    border: solid 1px;
+    width: 400px;
+    height: 600px;
+}
+
+#canvas-copy{
+    border: solid 1px;
+    width: 1400px;
+    height: 600px;   
+}

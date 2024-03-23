@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="js/canvas.js"></script>
+        <script src="js/home.js"></script>
+        <script src="js/api.js"></script>
+        <script src="js/constants.js"></script>
+        <script src="js/state.js"></script>
+        <!-- <script src="signature-draw-pad/jquery-drawpad.js"></script>
+        <link href="signature-draw-pad/jquery-drawpad.css" rel="stylesheet"></link> -->
+        <link href="css/root.css" rel="stylesheet"></link>
+    </head>
+    <body>
+        <input type="text" id="userid" placeholder="userid">
+        <br>
+        <input type="text" id="board_name" placeholder="boardname">
+        <button id="createBoard">create board</button>
+        <br>
+        <input type="text" id="board_id" placeholder="board id">
+        <button id="joinBoard">join board</button>
+        <!-- <div id="canvas-original"></div>
+        <div id="canvas-copy"></div> -->
+    </body>
+    <script>
+        $(document).ready(function(){
+            console.log("document ready")
+            homeUseCase.init();
+            // useCase.init();
+        })
+    </script>
+</html>
